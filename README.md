@@ -1,85 +1,85 @@
 <div align="center">
+  
+  <img src="https://storage.heycriss.dev/20260929010347/kash2.png" alt="Kash POS Logo" width="220">
 
-<img src="https://storage.heycriss.dev/20260929010347/kash2.png" alt="Kash POS Logo" width="120" style="margin-bottom: 15px;" />
+  <br><br>
 
-# 🚀 Documentación Técnica y Funcional: Kash POS System
+  <!-- Animación de escritura con SVG -->
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=10B981&center=true&vCenter=true&width=800&lines=El+sistema+de+punto+de+venta+y+gestión+del+futuro;Control+exhaustivo+de+deudores+y+créditos+en+tiempo+real;Automatización+inteligente+con+WhatsApp+y+pagos+móviles" alt="Typing SVG" />
 
-<span style="color: #10b981; font-weight: 600;">✨ Sistema Comercial Moderno & Optimizado</span>
+  <p align="center">
+    <b>Sistema comercial moderno, ligero y optimizado para dispositivos móviles y entornos de alta rotación.</b>
+  </p>
 
+  <!-- Insignias Tecnológicas -->
+  <p align="center">
+    <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
+    <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
+    <img src="https://img.shields.io/badge/Filament-FBBF24?style=for-the-badge&logo=laravel&logoColor=black" alt="Filament PHP">
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+    <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+    <img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA">
+  </p>
 </div>
 
----
+<br>
 
-## 💻 1. Stack Tecnológico y Arquitectura
+> **Kash POS** no es solo un registrador de ventas; es una solución integral de punto de venta (POS) y gestión comercial diseñada para simplificar las operaciones diarias de cualquier negocio.
 
-* **Backend:** Laravel con panel administrativo de última generación.
-* **Frontend / UI:** Interfaz moderna y minimalista con soporte completo para modo oscuro y diseño adaptable.
-* **Base de Datos:** Gestión de datos rápida y segura (MySQL / SQLite).
-* **Despliegue e Infraestructura:** Compatible con servidores VPS Linux, entornos en la nube y optimización de rendimiento continuo.
+Nuestro objetivo es agilizar el flujo de trabajo del cajero y administrador mediante una interfaz minimalista, moderna y de alta respuesta. Al conectar la gestión de inventarios, cajas registradoras y un avanzado control de créditos en una misma plataforma, Kash POS maximiza la eficiencia de tu comercio.
 
 ---
 
-## 🗂️️ 2. Estructura del Menú y Módulos
+## ✨ Características y Módulos Principales
 
-> El panel administrativo está organizado por categorías lógicas para agilizar el flujo de trabajo diario.
+### 📁 Operaciones y Caja
+* **Deudores (Fiados):** Control exhaustivo de créditos a clientes, montos totales en USD, tasas de cambio personalizadas y pagos parciales o totales.
+* **Productos (Inventario):** Catálogo de artículos con precios en dólares, control de stock y asociación directa con los cargos de los clientes.
+* **Caja Registradora:** Interfaz optimizada para el registro rápido de ventas y transacciones diarias.
 
-### 📁 Operaciones
-* **Deudores (Fiados):** Control exhaustivo de créditos a clientes, montos en USD, tasas de cambio personalizadas y pagos parciales o totales.
-* **Productos (Inventario):** Catálogo de artículos con precios en dólares, control de stock y asociación directa con cargos de clientes.
-* **Caja Registradora:** Interfaz para el registro rápido de ventas y transacciones diarias.
-
-### 📁 Administración
-* **Ajustes de Branding:** Personalización dinámica del nombre de la app, logotipos, favicones y colores corporativos.
-* **Usuarios:** Gestión de roles, permisos y accesos para el personal.
-* **Información / Escritorio:** Panel principal con widgets analíticos y de control.
+### 📁 Administración y Control
+* **Ajustes de Branding:** Personalización dinámica de la aplicación, logotipos, favicones y colores corporativos principales.
+* **Usuarios:** Gestión avanzada de roles, permisos y accesos para todo el personal del local.
+* **Escritorio Analítico:** Panel principal con widgets de información en tiempo real.
 
 ---
 
 ## 💳 3. Sistema Avanzado de Deudores y Créditos (Fiados)
 
-Diseñado para evitar listas interminables mediante una interfaz limpia y relacional:
+Diseñado específicamente para evitar listas interminables de deudores mediante una interfaz relacional y limpia:
 
-* **Información Básica del Cliente:** Registro rápido de nombre, teléfono/WhatsApp y tasa BCV personalizada opcional.
-* **Historial de Cargos y Abonos:** 
-  * Vista en pestaña independiente por cliente.
-  * Buscador integrado de productos con autocompletado de precios.
-  * Selector de fecha personalizada para cada cargo.
-  * **Identificación visual:** Abonos en verde (restan) y deudas en rojo.
-* **Acciones Rápidas en Tabla:**
-  * **Abonar:** Registro de pagos parciales especificando monto ($) y método de pago (Pago Móvil, Efectivo USD), generando un ítem negativo automático.
-  * **Pagar Todo:** Botón de confirmación para liquidar y limpiar la cuenta de forma masiva.
+* **Información Básica:** Registro rápido de nombre, teléfono/WhatsApp y tasa BCV personalizada opcional.
+* **Historial de Cargos y Abonos:** Vista independiente por cliente con buscador de inventario, autocompletado de precios y fechas personalizadas.
+* **Identificación Visual Clara:** Abonos en color verde restando al total, y deudas en rojo.
+* **Acciones Rápidas:**
+  * **Abonar:** Registro de pagos parciales especificando monto y método (Pago Móvil, Efectivo USD), generando un ítem negativo automático.
+  * **Pagar Todo:** Botón de confirmación masiva para liquidar cuentas al instante.
 
 ---
 
 ## ⚡ 4. Automatización y Canales de Comunicación
 
-* **Enlaces Temporales de Pago:** Generación de enlaces seguros con validez exacta de 1 hora y sistemas de acortamiento para una experiencia limpia.
+* **Enlaces Temporales de Pago:** Generación de tokens seguros con validez exacta de 1 hora, optimizados con enlaces cortos externos.
 * **Módulo de WhatsApp Inteligente:**
   * Generación de **Código QR interactivo en tiempo real** directo en el modal del administrador.
-  * Autocompletado de prefijo internacional para Venezuela (`+58`), detectando números locales.
-  * Mensajes preconfigurados con saltos de línea profesionales y enlace directo al estado de cuenta.
-* **Notificaciones por Correo Electrónico:**
-  * Envío automatizado mediante plantillas de correo elegantes y profesionales.
-  * Sistema de alertas integrado para soporte técnico en caso de incidencias de red.
+  * Autocompletado automático de prefijo internacional para Venezuela (`+58`) detectando números locales.
+  * Mensajes preconfigurados con saltos de línea profesionales y enlace al estado de cuenta.
+* **Notificaciones por Correo Electrónico:** Envío mediante plantillas HTML dedicadas con manejo seguro de excepciones y alertas de depuración.
 
 ---
 
-## 📱 5. Capacidades PWA (Progressive Web App)
+## 📱 5. Capacidades PWA y Panel de Control
 
-* **Instalación Nativa:** Botón interactivo de instalación (*"Instalar Kash"*) inyectado de forma fija al final de la barra lateral del panel administrativo.
-* **Experiencia de Aplicación:** 
-  * Configuración visual con tema corporativo, modo de pantalla completa y accesos directos optimizados.
-  * Funcionamiento fluido simulando una app nativa directamente desde el navegador del dispositivo.
-
----
-
-## 📊 6. Panel de Control y Widgets (Dashboard)
-
-El escritorio principal cuenta con una disposición optimizada de widgets en tiempo real:
-
-1. **ExchangeRatesWidget:** Tasas de cambio oficiales y paralelas actualizadas (BCV, Euro, etc.).
-2. **ActionWidget:** Botones de control y recarga rápida.
-3. **StatsOverview:** Indicadores clave de rendimiento, notificaciones y productos próximos a agotarse.
-4. **LatestSalesWidget:** Tabla detallada de las últimas transacciones registradas.
+* **Instalación Nativa:** Botón interactivo de instalación (*"Instalar Kash"*) ubicado en la barra lateral del panel administrativo.
+* **Widgets en Tiempo Real (Dashboard):**
+  1. **ExchangeRatesWidget:** Tasas de cambio oficiales y paralelas actualizadas (BCV, Euro).
+  2. **ActionWidget:** Botones de control y recarga rápida.
+  3. **StatsOverview:** Indicadores clave de rendimiento y alertas de stock.
+  4. **LatestSalesWidget:** Tabla detallada de las últimas transacciones.
 
 ---
+
+<div align="center">
+  <h2>🚀 Optimiza la gestión de tu comercio hoy</h2>
+  <p>Construido con tecnología moderna para ofrecer velocidad, estabilidad y control absoluto.</p>
+</div>
