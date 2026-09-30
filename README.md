@@ -1,25 +1,25 @@
 <div align="center">
 
-<img src="https://storage.heycriss.dev/20260929010347/kash2.png" alt="Kash POS Logo" width="150" class="transition-transform duration-500 hover:scale-110 drop-shadow-xl animate-fade-in" />
+<img src="https://storage.heycriss.dev/20260929010347/kash2.png" alt="Kash POS Logo" width="120" style="margin-bottom: 15px;" />
 
 # 🚀 Documentación Técnica y Funcional: Kash POS System
 
+<span style="color: #10b981; font-weight: 600;">✨ Sistema Comercial Moderno & Optimizado</span>
+
 </div>
 
-## 💻 1. Stack Tecnológico y Arquitectura
+---
 
-<div class="transition-all duration-300 hover:translate-y-[-2px]">
+## 💻 1. Stack Tecnológico y Arquitectura
 
 * **Backend:** Laravel con panel administrativo de última generación.
 * **Frontend / UI:** Interfaz moderna y minimalista con soporte completo para modo oscuro y diseño adaptable.
 * **Base de Datos:** Gestión de datos rápida y segura (MySQL / SQLite).
 * **Despliegue e Infraestructura:** Compatible con servidores VPS Linux, entornos en la nube y optimización de rendimiento continuo.
 
-</div>
-
 ---
 
-## 🗂️ 2. Estructura del Menú y Módulos
+## 🗂️️ 2. Estructura del Menú y Módulos
 
 > El panel administrativo está organizado por categorías lógicas para agilizar el flujo de trabajo diario.
 
@@ -44,7 +44,7 @@ Diseñado para evitar listas interminables mediante una interfaz limpia y relaci
   * Vista en pestaña independiente por cliente.
   * Buscador integrado de productos con autocompletado de precios.
   * Selector de fecha personalizada para cada cargo.
-  * <span class="text-emerald-400 font-semibold">Identificación visual:</span> Abonos en verde (restan) y deudas en rojo.
+  * **Identificación visual:** Abonos en verde (restan) y deudas en rojo.
 * **Acciones Rápidas en Tabla:**
   * **Abonar:** Registro de pagos parciales especificando monto ($) y método de pago (Pago Móvil, Efectivo USD), generando un ítem negativo automático.
   * **Pagar Todo:** Botón de confirmación para liquidar y limpiar la cuenta de forma masiva.
