@@ -1,0 +1,15 @@
+{
+  "name": "Kash POS \u2014 Point of Sale & Credit Ledger",
+  "short_name": "Kash POS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090b10",
+  "theme_color": "#10b981",
+  "icons": [
+    {
+      "src": "https://storage.heycriss.dev/20260929010347/kash2.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

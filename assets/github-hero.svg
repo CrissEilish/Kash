@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 310" width="100%" role="img" aria-label="Kash POS">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#090b10"/>
+      <stop offset="100%" stop-color="#0f131d"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="310" rx="18" fill="url(#bg)" stroke="#1e2536" stroke-width="1.5"/>
+  <rect width="1000" height="310" rx="18" fill="url(#grid)"/>
+  <circle cx="160" cy="40" r="180" fill="#10b981" opacity="0.11">
+    <animate attributeName="r" values="165;195;165" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="840" cy="270" r="170" fill="#3b82f6" opacity="0.08">
+    <animate attributeName="r" values="150;185;150" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Kicker -->
+  <g transform="translate(48, 46)">
+    <rect width="230" height="26" rx="13" fill="#121723" stroke="#252f47"/>
+    <circle cx="16" cy="13" r="4" fill="#10b981">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="28" y="17" fill="#b4c6ff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="600" letter-spacing="1.4">HEYCRISS LABS · POS + LEDGER</text>
+  </g>
+
+  <!-- Title & Subtitle -->
+  <text x="48" y="138" fill="#f8fafc" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="52" font-weight="800" letter-spacing="-1.8">Kash POS</text>
+  <rect x="48" y="154" width="120" height="4" rx="2" fill="url(#acc)">
+    <animate attributeName="width" values="90;165;90" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="48" y="192" fill="#94a3b8" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="16" font-weight="400">High-Rotation Point of Sale, Inventory & Debtor Credit Ledger</text>
+
+  
+        <g transform="translate(48, 238)">
+          <rect width="88" height="28" rx="14" fill="#141824" stroke="#10b981" stroke-opacity="0.45"/>
+          <text x="44" y="18" fill="#dbe4ff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="600" text-anchor="middle">PHP 8.1+</text>
+        </g>
+        <g transform="translate(146.4, 238)">
+          <rect width="104" height="28" rx="14" fill="#141824" stroke="#10b981" stroke-opacity="0.45"/>
+          <text x="52" y="18" fill="#dbe4ff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="600" text-anchor="middle">Laravel 11</text>
+        </g>
+        <g transform="translate(260.4, 238)">
+          <rect width="127" height="28" rx="14" fill="#141824" stroke="#10b981" stroke-opacity="0.45"/>
+          <text x="64" y="18" fill="#dbe4ff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="600" text-anchor="middle">FilamentPHP 3</text>
+        </g>
+        <g transform="translate(397.79999999999995, 238)">
+          <rect width="120" height="28" rx="14" fill="#141824" stroke="#10b981" stroke-opacity="0.45"/>
+          <text x="60" y="18" fill="#dbe4ff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="600" text-anchor="middle">Tailwind CSS</text>
+        </g>
+        <g transform="translate(527.4, 238)">
+          <rect width="65" height="28" rx="14" fill="#141824" stroke="#10b981" stroke-opacity="0.45"/>
+          <text x="32" y="18" fill="#dbe4ff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="600" text-anchor="middle">MySQL</text>
+        </g>
+        <g transform="translate(602.4, 238)">
+          <rect width="49" height="28" rx="14" fill="#141824" stroke="#10b981" stroke-opacity="0.45"/>
+          <text x="25" y="18" fill="#dbe4ff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="600" text-anchor="middle">PWA</text>
+        </g>
+  
+        <g transform="translate(650, 44)">
+          <rect width="302" height="72" rx="12" fill="#111520" stroke="#232a3d" stroke-width="1"/>
+          <circle cx="22" cy="24" r="4" fill="#10b981">
+            <animate attributeName="opacity" values="0.35;1;0.35" dur="2.6s" repeatCount="indefinite"/>
+          </circle>
+          <text x="34" y="28" fill="#8b95b0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" letter-spacing="1.2">DEBTOR LEDGER</text>
+          <text x="20" y="52" fill="#f1f5f9" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="15.5" font-weight="700">USD + Custom BCV Rate</text>
+          <text x="284" y="28" fill="#3b82f6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="end">RELATIONAL</text>
+        </g>
+        <g transform="translate(650, 128)">
+          <rect width="302" height="72" rx="12" fill="#111520" stroke="#232a3d" stroke-width="1"/>
+          <circle cx="22" cy="24" r="4" fill="#10b981">
+            <animate attributeName="opacity" values="0.35;1;0.35" dur="2.6s" repeatCount="indefinite"/>
+          </circle>
+          <text x="34" y="28" fill="#8b95b0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" letter-spacing="1.2">PAYMENT TOKENS</text>
+          <text x="20" y="52" fill="#f1f5f9" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="15.5" font-weight="700">1-Hour Signed Links</text>
+          <text x="284" y="28" fill="#3b82f6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="end">SHA-256</text>
+        </g>
+        <g transform="translate(650, 212)">
+          <rect width="302" height="72" rx="12" fill="#111520" stroke="#232a3d" stroke-width="1"/>
+          <circle cx="22" cy="24" r="4" fill="#10b981">
+            <animate attributeName="opacity" values="0.35;1;0.35" dur="2.6s" repeatCount="indefinite"/>
+          </circle>
+          <text x="34" y="28" fill="#8b95b0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" letter-spacing="1.2">WHATSAPP BILLING</text>
+          <text x="20" y="52" fill="#f1f5f9" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="15.5" font-weight="700">Live QR + +58 Auto-Prefix</text>
+          <text x="284" y="28" fill="#3b82f6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="end">INSTANT</text>
+        </g>
+</svg>

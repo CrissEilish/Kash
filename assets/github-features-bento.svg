@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="100%" role="img" aria-label="Architecture & Features">
+  <rect width="1000" height="340" rx="18" fill="#090b10" stroke="#1e2536" stroke-width="1.5"/>
+  
+        <g transform="translate(24, 24)">
+          <rect width="312" height="138" rx="14" fill="#10141f" stroke="#1f273a" stroke-width="1.2"/>
+          <rect x="0" y="0" width="312" height="3" rx="1.5" fill="#10b981" opacity="0.7">
+            <animate attributeName="opacity" values="0.35;0.95;0.35" dur="4s" begin="0.0s" repeatCount="indefinite"/>
+          </rect>
+          <text x="20" y="30" fill="#3b82f6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">01 · REGISTER</text>
+          <text x="20" y="58" fill="#f1f5f9" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="17" font-weight="700">POS & USD Inventory</text>
+          <text x="20" y="86" fill="#94a3b8" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5">Fast daily checkout flow</text>
+          <text x="20" y="106" fill="#94a3b8" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5">USD-indexed stock catalog</text>
+        </g>
+        <g transform="translate(344, 24)">
+          <rect width="312" height="138" rx="14" fill="#10141f" stroke="#1f273a" stroke-width="1.2"/>
+          <rect x="0" y="0" width="312" height="3" rx="1.5" fill="#10b981" opacity="0.7">
+            <animate attributeName="opacity" values="0.35;0.95;0.35" dur="4s" begin="0.4s" repeatCount="indefinite"/>
+          </rect>
+          <text x="20" y="30" fill="#3b82f6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">02 · LEDGER</text>
+          <text x="20" y="58" fill="#f1f5f9" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="17" font-weight="700">Debtor Credit System</text>
+          <text x="20" y="86" fill="#94a3b8" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5">Green credits / red debts</text>
+          <text x="20" y="106" fill="#94a3b8" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5">Custom BCV rate override</text>
+        </g>
+        <g transform="translate(664, 24)">
+          <rect width="312" height="138" rx="14" fill="#10141f" stroke="#1f273a" stroke-width="1.2"/>
+          <rect x="0" y="0" width="312" height="3" rx="1.5" fill="#10b981" opacity="0.7">
+            <animate attributeName="opacity" values="0.35;0.95;0.35" dur="4s" begin="0.8s" repeatCount="indefinite"/>
+          </rect>
+          <text x="20" y="30" fill="#3b82f6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">03 · SETTLEMENT</text>
+          <text x="20" y="58" fill="#f1f5f9" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="17" font-weight="700">Abonar & Pagar Todo</text>
+          <text x="20" y="86" fill="#94a3b8" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5">Partial mobile/cash payments</text>
+          <text x="20" y="106" fill="#94a3b8" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5">One-click full liquidation</text>
+        </g>
+        <g transform="translate(24, 178)">
+          <rect width="312" height="138" rx="14" fill="#10141f" stroke="#1f273a" stroke-width="1.2"/>
+          <rect x="0" y="0" width="312" height="3" rx="1.5" fill="#10b981" opacity="0.7">
+            <animate attributeName="opacity" values="0.35;0.95;0.35" dur="4s" begin="1.2s" repeatCount="indefinite"/>
+          </rect>
+          <text x="20" y="30" fill="#3b82f6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">04 · TOKENS</text>
+          <text x="20" y="58" fill="#f1f5f9" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="17" font-weight="700">1-Hour Payment Links</text>
+          <text x="20" y="86" fill="#94a3b8" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5">Expiring signed URLs</text>
+          <text x="20" y="106" fill="#94a3b8" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5">External shortlink ready</text>
+        </g>
+        <g transform="translate(344, 178)">
+          <rect width="312" height="138" rx="14" fill="#10141f" stroke="#1f273a" stroke-width="1.2"/>
+          <rect x="0" y="0" width="312" height="3" rx="1.5" fill="#10b981" opacity="0.7">
+            <animate attributeName="opacity" values="0.35;0.95;0.35" dur="4s" begin="1.6s" repeatCount="indefinite"/>
+          </rect>
+          <text x="20" y="30" fill="#3b82f6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">05 · WHATSAPP</text>
+          <text x="20" y="58" fill="#f1f5f9" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="17" font-weight="700">Live QR & +58 Prefix</text>
+          <text x="20" y="86" fill="#94a3b8" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5">Real-time modal QR code</text>
+          <text x="20" y="106" fill="#94a3b8" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5">Formatted account statements</text>
+        </g>
+        <g transform="translate(664, 178)">
+          <rect width="312" height="138" rx="14" fill="#10141f" stroke="#1f273a" stroke-width="1.2"/>
+          <rect x="0" y="0" width="312" height="3" rx="1.5" fill="#10b981" opacity="0.7">
+            <animate attributeName="opacity" values="0.35;0.95;0.35" dur="4s" begin="2.0s" repeatCount="indefinite"/>
+          </rect>
+          <text x="20" y="30" fill="#3b82f6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">06 · DASHBOARD</text>
+          <text x="20" y="58" fill="#f1f5f9" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="17" font-weight="700">4 Real-Time Widgets</text>
+          <text x="20" y="86" fill="#94a3b8" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5">BCV/EUR exchange rates</text>
+          <text x="20" y="106" fill="#94a3b8" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5">Sales & low-stock alerts</text>
+        </g>
+</svg>
